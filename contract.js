@@ -11,7 +11,7 @@ const initialize = () => {
   const onboardButton = document.getElementById('connectButton');
   const getAccountsButton = document.getElementById('getAccounts');
   const getAccountsResult = document.getElementById('getAccountsResult');
-  const onSendButton = document.getElementById('sendButton');
+  const onMintButton = document.getElementById('mintButton');
   const onQueryButton = document.getElementById('queryButton');
   const receiver = document.getElementById('receiveAccount');
   const queryInput = document.getElementById('queryAccount');
@@ -107,8 +107,8 @@ const initialize = () => {
       onboardButton.onclick = onClickConnect;
       //The button is now disabled
       onboardButton.disabled = false;
-      onSendButton.onclick = onClickSend;
-      onSendButton.disabled = false;
+      onMintButton.onclick = onClickSend;
+      onMintButton.disabled = false;
       onQueryButton.onclick = onClickQuery;
       onQueryButton.disabled = false;
     }

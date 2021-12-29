@@ -34,7 +34,7 @@ Private key used in demo
 5. Open the web page
 Visit [http://localhost:9011/index.html](http://localhost:9011/index.html)
 
-You can instead localhost of public IP if you are not testing on the same server.
+You can replace localhost with public IP if you are not testing on the same server.
 
 6. connect to wallet
 Click 'CONNECT' button to connect to metamask wallet.

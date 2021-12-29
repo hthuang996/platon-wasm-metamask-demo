@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>E2E Test Dapp</title>
+  <title>MetaMask PlatON WASM Demo</title>
   <link rel="icon" type="image/png" href="metamask-fox.svg">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
@@ -14,7 +14,7 @@
 <body>
   <main class="container-fluid">
     <header>
-      <h1 class="text-center">E2E Test Dapp</h1>
+      <h1 class="text-center">MetaMask PlatON WASM Demo</h1>
     </header>
 
     <!-- Part 1 Setting up Basic Actions and Status-->
@@ -43,8 +43,8 @@
             <div class="card-body">
               <h4 class="card-title">Basic Actions</h4>
               <button class="btn btn-primary btn-lg btn-block mb-3" id="connectButton" disabled></button>
-              <button class="btn btn-primary btn-lg btn-block mb-3" id="getAccounts">eth_accounts</button>
-              <p class="info-text alert alert-secondary">eth_accounts result: <span id="getAccountsResult"></span></p>
+              <button class="btn btn-primary btn-lg btn-block mb-3" id="getAccounts">lat_accounts</button>
+              <p class="info-text alert alert-secondary">lat_accounts result: <span id="getAccountsResult"></span></p>
             </div>
           </div>
         </div>
@@ -60,8 +60,8 @@
         <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
           <div class="card full-width">
             <div class="card-body">
-              <h4 class="card-title">Send Token</h4>
-              <button class="btn btn-primary btn-lg btn-block mb-3" id="sendButton" disabled>Send</button>
+              <h4 class="card-title">Mint Token</h4>
+              <button class="btn btn-primary btn-lg btn-block mb-3" id="mintButton" disabled>Mint</button>
               <p class="info-text alert alert-info">To Address: <input type="text" id="receiveAccount" name="receiver" /></p>
               <hr />
               <h4>Query Balance</h4>
